@@ -11,7 +11,7 @@ try it out:
 	sudo tar -xvzf code-server2.1698-vsc1.41.1-linux-x86_64.tar.gz && \
 	sudo rm -r code-server2.1698-vsc1.41.1-linux-x86_64.tar.gz && \
 	sudo mv code-server2.1698-vsc1.41.1-linux-x86_64/ vscode/ && \
-	cd /home && \
+	cd /home
 ```
 
 ### 2- run a container with vscode mounted in:
@@ -22,6 +22,8 @@ try it out:
             -v "/bin/vscode:/bin/vscode" \
             -it `#Environement:php,node,python...`   /bin/vscode/code-server --auth none
 ```
+
+### 3- Open port '8080' (or xxxx) on your browser
 
 
            
