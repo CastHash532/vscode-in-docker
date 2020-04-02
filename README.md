@@ -17,7 +17,7 @@ try it out:
 ```bash
   docker run --privileged \
             -p 127.0.0.1:8080:8080 `#change external port 127.0.0.1:xxxx:8080 for multiple environements` \
-            -v "$PWD:/home/workspace" \
+            -v "$HOME:/home" \
             -v "/home/vscode:/home/vscode" \
             -it `#Environement:php,node,python...`   /home/vscode/code-server --auth none
 ```
