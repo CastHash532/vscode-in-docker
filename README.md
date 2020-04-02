@@ -21,8 +21,12 @@ try it out:
             -v "/home/vscode:/bin/vscode" \
             -it `#Environement:php,node,python...`   /bin/vscode/code-server --auth none
 ```
+Open port '8080' (or xxxx) on your browser
+- ***On Google Cloud Shell:*** Take advantage of large cloud servers to speed up tests,
+  compilations, downloads, and more. Preserve battery life when you're on the go
+  since all intensive computation runs on your [Google Cloud Shell](https://console.cloud.google.com/) instance.
 
-### 3- Open port '8080' (or xxxx) on your browser
+
 
 
            
