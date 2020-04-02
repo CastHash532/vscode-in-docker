@@ -18,8 +18,8 @@ try it out:
   docker run --privileged \
             -p 127.0.0.1:8080:8080 `#change external port 127.0.0.1:xxxx:8080 for multiple environements` \
             -v "$HOME:/home" \
-            -v "/home/vscode:/home/vscode" \
-            -it `#Environement:php,node,python...`   /home/vscode/code-server --auth none
+            -v "/home/vscode:/bin/vscode" \
+            -it `#Environement:php,node,python...`   /bin/vscode/code-server --auth none
 ```
 Open port '8080' (or xxxx) on your browser
 - ***On Google Cloud Shell:*** Take advantage of large cloud servers to speed up tests,
